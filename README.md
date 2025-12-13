@@ -153,7 +153,7 @@ curl -X POST https://api.link.awaken.tax/api/links \
 ```json
 {
   "code": "abc123xyz",
-  "url": "https://link.awaken.tax/abc123xyz"
+  "url": "https://awaken.tax/link?code=abc123xyz"
 }
 ```
 
