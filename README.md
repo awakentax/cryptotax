@@ -110,9 +110,9 @@ async function createTaxLink() {
 
 ## What It Looks Like
 
-![Tax Calculation Interface](https://via.placeholder.com/800x500/4A90E2/FFFFFF?text=Awaken+Tax+Calculation+Interface)
+<img width="1076" height="809" alt="Screenshot 2025-12-13 at 12 58 43 AM" src="https://github.com/user-attachments/assets/b7d09c69-0076-4753-bbd2-4b49eb533629" />
 
-*The tax calculation interface provides a user-friendly way to view and manage crypto tax calculations.*
+When you open up the URL we generate for you, it will look something like this. If the user doesn't have an Awaken account, it will prompt them to create one and then automatically add the wallets for them. If they already have an account, it'll be a one click add for them to link these wallets to their existing Awaken account.
 
 ## Alternative: Using cURL (Without SDK)
 
@@ -183,35 +183,3 @@ Creates a new tax calculation link.
 **Returns:**
 - `code`: Unique code for the link
 - `url`: Full URL to access the tax calculation interface
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Build the project
-npm run build
-
-# Watch mode
-npm run build:watch
-
-# Type checking
-npm run typecheck
-
-# Clean build artifacts
-npm run clean
-```
-
-## Publishing
-
-```bash
-# Build and publish to npm
-npm publish
-```
-
-The `prepublishOnly` script will automatically build the project before publishing.
-
-## License
-
-ISC
