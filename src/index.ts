@@ -44,6 +44,8 @@ export class CryptoTaxSDK {
       );
     }
 
-    return response.json() as Promise<CreateLinkResponse>;
+    const json = await response.json() as {data: CreateLinkResponse};
+    
+    return json.data;
   }
 }
