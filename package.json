@@ -1,6 +1,6 @@
 {
   "name": "@awakentax/crypto-tax",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Tax SDK for Awaken",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -28,7 +28,6 @@
     "prepublishOnly": "npm run clean && npm run build",
     "publish": "npm publish --access public",
     "typecheck": "tsc --noEmit",
-    "prepack": "npm run build",
     "example:node": "ts-node examples/node-cli/example.ts",
     "example:express": "ts-node examples/express-server/server.ts"
   },
