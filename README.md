@@ -2,6 +2,9 @@
 
 Tax SDK for Awaken - Easily integrate crypto tax calculation links into your application.
 
+Demo:
+[![Watch the video](assets/loom-thumbnail.png)](https://www.loom.com/share/f8560333e0c842758b14494645e5c769)
+
 ## Step 1: Get an API Key
 
 To use this SDK, you'll need an API key. Please contact **andrew@awaken.tax** to obtain your API key.
